@@ -1,0 +1,26 @@
+# python
+*.pyc
+*~
+__pycache__
+
+# Env
+.Env
+myvenv/
+venv/
+
+# database
+db.sqlite3
+
+# static folder at root
+/static/
+
+# macOS
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
+
+# Visual Studio
+.vscode/
+.history/
+*.code-workspace
