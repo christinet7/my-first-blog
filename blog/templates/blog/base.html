@@ -13,14 +13,14 @@
                 <a href="{% url 'post_new' %}" class="top-menu">
                     {% include './icons/file-earmark-plus.svg' %}
                 </a>
-              <h1><a href="/"> christine's blog </a></h1>
+                <h1><a href="/"> christine's blog </a></h1>
           </div>
         </header>
-        <main class="container">
+        <main class="content container">
             <div class="row">
                 <div class="col">
-                {% block content %}
-                {% endblock %}
+                    {% block content %}
+                    {% endblock %}
                 </div>
             </div>
         </main>
